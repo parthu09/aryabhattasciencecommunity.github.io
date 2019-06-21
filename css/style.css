@@ -1,0 +1,285 @@
+* {
+    font-family: futura;
+    font-weight: lighter;
+}
+.carousel-item img {
+    filter: blur(8px) grayscale(100%);;
+    height: 550px;
+}
+
+.carousel-indicators-round li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #fcfcfc;
+}
+.card{
+    border-radius: 1.25rem;
+    border-color: #289f97;
+    border-width: 4px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+}
+.btn-secondary{
+    margin-left: 59px;
+}
+footer{
+    background: rgb(41, 41, 41);
+}
+.card-container{
+    cursor: pointer;
+    position: relative;
+}
+.card-body img{
+    max-height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.back{
+    transform: scaleX(-1);
+}
+h1.team-h1 {
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    text-align: center;
+    left: 40%;
+    background-color: white;
+    padding: 0px 20px;
+    color: #222; 
+  }  
+.cf:before,.cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+.cf:after {
+      clear: both;
+    }
+  
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+  .cf {
+      *zoom: 1;
+  }
+.team-container {
+    max-width: 1000px;
+    margin: auto;
+    border-top: 1px #e9e9e9 solid;
+    border-bottom: 1px #e9e9e9 solid;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+    position: relative;
+  }  
+.team-member {
+    width: 16%;
+    float: left;
+    text-align: center;
+    margin-right: 5%;
+  }
+.team-member:last-child {margin-right: 0;}
+.team-member span,.team-member h3 {
+    max-width: 200px;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+  }  
+.team-member h3 {
+    color: #1CA3A3;
+  }
+  
+.email {
+    color: #EA2678; 
+  }
+.team-member span {
+    display: block;
+  }
+.team-photo {
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    transition: 0.1s transform ease-in-out;
+  }
+.team-photo:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  /* code for phone layout */
+@media (max-width:850px){
+.team-member {
+      width:25%;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 40px;    
+    }
+    
+  }
+@media (max-width:650px){
+.team-member {
+      float: none;
+      display: block;
+      margin: 50px auto;
+      width: 100%;
+      text-align: center;
+    }
+.team-member h3,.team-member span {
+      margin: 15px auto;
+    }
+  }
+  .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    /* font-family: 'Droid Sans', sans-serif; */
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    /* font-family: 'Glyphicons Halflings'; */
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    h1.team-h1{
+        position: absolute;
+        left: 20%;
+    }
+}
+@media(min-width: 768px) {
+  #quote-carousel .carousel-indicators {
+    transform: translateX(-10%);
+  }  
+}
+
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+  transform: translateY(-30%);
+}
+#quote-carousel .carousel-indicators {
+  position: relative;
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all .4s ease-in;
+  vertical-align: middle;
+  background-color: #fff;
+  position: relative;
+  margin: 10px; 
+}
+#quote-carousel .carousel-indicators img{
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;            
+}
+#quote-carousel .carousel-indicators .active {
+  width: 128px;
+  height: 128px;
+  opacity: 1;
+  transition: all .2s;
+}
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}

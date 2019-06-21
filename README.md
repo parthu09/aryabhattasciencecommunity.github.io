@@ -1,2 +1,1 @@
-# aryabhattasciencecommunity.github.io
-Community Website
+# Aryabhatta-Science
