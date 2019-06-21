@@ -1,0 +1,19 @@
+{
+  "name": "aryabhatta-science",
+  "version": "1.0.0",
+  "description": "Content of courses for Aryabhatta-Science",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anshu Patel, Priyansh Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
