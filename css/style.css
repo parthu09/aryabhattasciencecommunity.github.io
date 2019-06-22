@@ -1,5 +1,5 @@
 * {
-    font-family: futura;
+    font-family: Alef;
     font-weight: lighter;
 }
 .carousel-item img {
@@ -282,4 +282,16 @@ h1.team-h1 {
   font-family: 'Fontawesome';
   float: left;
   margin-right: 10px;
+}
+.card-courses .card{
+  min-height: 500px;
+}
+#videoCarousel .carousel-indicators-round li {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #999;
+}
+#videoCarousel .carousel-indicators-round li.active{
+  background-color: #222;
 }
