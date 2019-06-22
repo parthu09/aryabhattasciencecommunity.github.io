@@ -12,25 +12,25 @@
         <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img class="logo logo-light d-inline-block align-top" src="src/Gif.png" width="250" height="55" alt=""></a>
                 <div class="d-flex flex-row order-1 order-sm-3">
                     <ul class="navbar-nav flex-row d-none d-sm-flex">
-                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-github"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-square social social-facebook"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter social social-twitter"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram social social-instagram"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-github social social-github"></i></a></li>
                     </ul>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <ul class="navbar-nav flex-row d-sm-none">
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-github"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook-square social social-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter social social-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram social social-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-github social social-github"></i></a></li>
                 </ul>
                 <div class="collapse navbar-collapse order-3 order-sm-2" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
@@ -47,24 +47,32 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="src/4.jpg" class="d-block w-100" alt="...">
+                    <img src="src/IMG_1199.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-center">
                         <h1>----------Heading----------</h1>
                         <p>---------text------------</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="src/2.jpg" class="d-block w-100" alt="...">
+                    <img src="src/IMG_4610.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-center">
                         <h1>----------Heading----------</h1>
                         <p>---------text------------</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="src/3.jpg" class="d-block w-100" alt="...">
+                    <img src="src/IMG_20190419_093613.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-center">
+                        <h1>----------Heading----------</h1>
+                        <p>---------text------------</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/IMG_20190504_174612.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block text-center">
                         <h1>----------Heading----------</h1>
                         <p>---------text------------</p>
@@ -92,16 +100,16 @@
             </div>
         <br>
             <div class="row card-courses">
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                        <img src="src/courses/gcp.svg" class="card-img-top" alt="Icon">
-                    </br>
-                        <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Certification</h5></br>
-                        <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 49,999</h5></sapn></br>
+                        <img src="src/courses/gcp.svg" class="card-img-top img-fluid" alt="Icon">
+                    <br>
+                        <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Certification</h5><br>
+                        <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 49,999</h5></span><br>
                         <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                         <p style="text-align: center">(6 Months)</p>
                         <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -116,16 +124,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/gci.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code-In Competition</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 59,999</h5></sapn></br>
+                            <img src="src/courses/gci.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code-In Competition</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 59,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(4 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -140,16 +148,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                 <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                 <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/codeToLearn.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code To Learn</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></sapn></br>
+                            <img src="src/courses/codeToLearn.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code To Learn</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(45 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -164,16 +172,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/ComScience.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Computer Science</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></sapn></br>
+                            <img src="src/courses/ComScience.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Computer Science</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(3 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -188,16 +196,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/Blogger.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Beacome a Blogger</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 999</h5></sapn></br>
+                            <img src="src/courses/Blogger.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Beacome a Blogger</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(30 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -212,16 +220,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GooglePro.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Product Training</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,999</h5></sapn></br>
+                            <img src="src/courses/GooglePro.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Product Training</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(30 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -236,16 +244,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GoogleNews.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Journalism Training</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,399</h5></sapn></br>
+                            <img src="src/courses/GoogleNews.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Journalism Training</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,399</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(2 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -260,16 +268,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GoogleDoodle.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Doodle Challenge</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 499</h5></sapn></br>
+                            <img src="src/courses/GoogleDoodle.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Doodle Challenge</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(15 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -284,16 +292,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/DigitalMarketing.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Digital Marketing Certification</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 3,999</h5></sapn></br>
+                            <img src="src/courses/DigitalMarketing.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Digital Marketing Certification</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 3,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -308,16 +316,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/web.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Website Development</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 9,999</h5></sapn></br>
+                            <img src="src/courses/web.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Website Development</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 9,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -332,16 +340,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/python.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Python Development</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 4,999</h5></sapn></br>
+                            <img src="src/courses/python.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Python Development</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 4,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -356,16 +364,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/prog.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Intro To Programming</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 13,999</h5></sapn></br>
+                            <img src="src/courses/prog.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Intro To Programming</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 13,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(3 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -381,26 +389,27 @@
                 </div>
                 </div>
             </div>
+        </div>
             <div class="container" id="Courses">
             <div class="row">
                 <hr class ="col-12 mb-5">
-                <h1 class="col-12" style="text-align: center;font-size: 56px;line-height: 64px;font-family: Futura; letter-spacing: 8;">Hardware Courses</h1>
+                <h1 class="col-12" style="text-align: center;font-size: 56px;line-height: 64px;font-family: Futura; letter-spacing: 8px;">Hardware Courses</h1>
             <br>
         <br>
             <p class="col-12" style="text-align:center;">Classroom courses for all stages, with equal focus on theory and implementation</p>
             </div>
         <br>
             <div class="row card-courses">
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                        <img src="src/courses/gcp.svg" class="card-img-top" alt="Icon">
-                    </br>
-                        <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Certification</h5></br>
-                        <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 49,999</h5></sapn></br>
+                        <img src="src/courses/gcp.svg" class="card-img-top img-fluid" alt="Icon">
+                    <br>
+                        <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Certification</h5><br>
+                        <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 49,999</h5></span><br>
                         <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                         <p style="text-align: center">(6 Months)</p>
                         <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -415,16 +424,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/gci.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code-In Competition</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 59,999</h5></sapn></br>
+                            <img src="src/courses/gci.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code-In Competition</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 59,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(4 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -439,16 +448,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                 <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                 <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/codeToLearn.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code To Learn</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></sapn></br>
+                            <img src="src/courses/codeToLearn.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Code To Learn</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(45 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -463,16 +472,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/ComScience.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Computer Science</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></sapn></br>
+                            <img src="src/courses/ComScience.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Computer Science</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 2,499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(3 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -487,16 +496,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/Blogger.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Beacome a Blogger</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 999</h5></sapn></br>
+                            <img src="src/courses/Blogger.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Beacome a Blogger</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(30 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -511,16 +520,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GooglePro.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Product Training</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,999</h5></sapn></br>
+                            <img src="src/courses/GooglePro.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Product Training</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(30 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -535,16 +544,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                         <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GoogleNews.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Journalism Training</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,399</h5></sapn></br>
+                            <img src="src/courses/GoogleNews.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Journalism Training</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 1,399</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(2 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -559,16 +568,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/GoogleDoodle.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Doodle Challenge</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 499</h5></sapn></br>
+                            <img src="src/courses/GoogleDoodle.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Google Doodle Challenge</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 499</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(15 Days)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -583,16 +592,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/DigitalMarketing.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Digital Marketing Certification</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 3,999</h5></sapn></br>
+                            <img src="src/courses/DigitalMarketing.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Digital Marketing Certification</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 3,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -607,16 +616,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/web.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Website Development</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 9,999</h5></sapn></br>
+                            <img src="src/courses/web.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Website Development</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 9,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -631,16 +640,16 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/python.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Python Development</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 4,999</h5></sapn></br>
+                            <img src="src/courses/python.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Python Development</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 4,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(1 Month)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -655,16 +664,16 @@
                     </div>
                 </div>
             </div>
-                <div class="col-12 col-md-4" style="width: 18rem;">
+                <div class="col-12 col-sm-6 col-md-4" style="width: 18rem;">
                     <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                     <div class="card-header back d-none">
                         <button class="close flip-close">&times;</button>
                     </div>
                     <div class="card-body front">
-                            <img src="src/courses/prog.png" class="card-img-top" alt="Icon">
-                        </br>
-                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Intro To Programming</h5></br>
-                            <sapn class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 13,999</h5></sapn></br>
+                            <img src="src/courses/prog.png" class="card-img-top img-fluid" alt="Icon">
+                        <br>
+                            <h5 style="text-align: center;letter-spacing: 2px;font-size: 1.70rem;">Intro To Programming</h5><br>
+                            <span class="price"><h5 style="text-align: center;font-size:26px;font-weight: lighter;">₹ 13,999</h5></span><br>
                             <p style="font-size: 15px; text-align: center;">Be a Google Certified Developer</p>
                             <p style="text-align: center">(3 Months)</p>
                             <button class="btn flip-init btn-secondary">Learn more..</button>
@@ -687,25 +696,25 @@
                       <div class="col-12 col-sm-2 offset-sm-2 team-member" data-aos="fade-left" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                         <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
                         <h3>Himrishi Rawal</h3>
-                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: balck"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
+                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: black"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
                         <a href="javascript:void(0)" class="btn btn-instagram" style="color: black"><i class="fab fa-instagram fa-lg"></i></a>
-                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: balck"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: black"><i class="fa fa-phone" aria-hidden="true"></i></a>
                       </div>      
                       <!-- member-->
                       <div class="col-12 col-sm-2 team-member" data-aos="fade-up" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
                       <img class="team-photo" src="http://square-vn.com/app/dscms/assets/images/person-4.jpg?v=1495618120">
                         <h3>Krunal Koshti</h3>
-                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: balck"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
+                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: black"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
                         <a href="javascript:void(0)" class="btn btn-instagram" style="color: black"><i class="fab fa-instagram fa-lg"></i></a>
-                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: balck"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: black"><i class="fa fa-phone" aria-hidden="true"></i></a>
                       </div>
                       <!-- member-->
                       <div class="col-12 col-sm-2 team-member" data-aos="fade-right" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
-                      <img class="team-photo" src="src/akshay.jpg"></br>
+                      <img class="team-photo" src="src/akshay.jpg"><br>
                         <h3 style="font-size: 28">Akshay Nandwana</h3>
-                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: balck"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
+                        <a href="javascript:void(0)" class="btn btn-facebook" style="color: black"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
                         <a href="javascript:void(0)" class="btn btn-instagram" style="color: black"><i class="fab fa-instagram fa-lg"></i></a>
-                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: balck"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        <a href="tel: +91 9537733645" class="btn btn-call" style="color: black"><i class="fa fa-phone" aria-hidden="true"></i></a>
                       </div>  
                     </div>
                    </section>
@@ -857,8 +866,8 @@
                        
     
                         <!-- Carousel Buttons Next/Prev -->
-                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control carousel-control-prev"><i class="fa fa-chevron-left"></i></a>
-                        <a data-slide="next" href="#quote-carousel" class="right carousel-control carousel-control-next"><i class="fa fa-chevron-right"></i></a>
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control carousel-control-prev d-none d-sm-block"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control carousel-control-next d-none d-sm-block"><i class="fa fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
