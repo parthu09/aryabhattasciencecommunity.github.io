@@ -7,11 +7,7 @@ body, html{
   margin-top: 30px;
 }
 .carousel-item img {
-<<<<<<< HEAD
     /* filter: blur(4px) grayscale(100%);; */
-=======
-/*     filter: blur(px) grayscale(100%);; */
->>>>>>> 7f8cf9df66b288207f2006cdae13a4fae3beb134
     height: 550px;
 }
 
