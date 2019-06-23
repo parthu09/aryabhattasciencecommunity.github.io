@@ -11,6 +11,7 @@
   "author": "Anshu Patel, Priyansh Bhardwaj",
   "license": "ISC",
   "dependencies": {
+    "imagemin": "^6.1.0",
     "node-modules": "^1.0.1"
   },
   "devDependencies": {
