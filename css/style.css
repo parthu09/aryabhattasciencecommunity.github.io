@@ -7,10 +7,15 @@ body, html{
   margin-top: 30px;
 }
 .carousel-item img {
-    /* filter: blur(4px) grayscale(100%);; */
+    /* filter: blur(2px) ; */
     height: 550px;
 }
-
+@media only screen and (max-width: 768px){
+  .carousel-item img {
+    /* filter: blur(2px) ; */
+    height: 300px;
+  }
+}
 .carousel-indicators-round li {
     border-radius: 50%;
     width: 12px;
