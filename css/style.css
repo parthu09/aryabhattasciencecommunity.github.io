@@ -92,7 +92,7 @@ h1.team-h1 {
     width: 16%;
     float: left;
     text-align: center;
-    margin-right: 5%;
+    /* margin-right: 5%; */
   }
 .team-member:last-child {margin-right: 0;}
 .team-member span,.team-member h3 {
@@ -135,7 +135,7 @@ h1.team-h1 {
 @media (max-width:650px){
 .team-member {
       float: none;
-      display: block;
+      display: inline;
       margin: 50px auto;
       width: 100%;
       text-align: center;
